@@ -39,6 +39,7 @@ function removeProjectFromLocalStorage() {
 }
 function getLocalStorageByKey() {
    console.log(localStorage.key(0));
+   console.log("!");
 }
 document.addEventListener("volumeupbutton", callbackFunction, false);
 
